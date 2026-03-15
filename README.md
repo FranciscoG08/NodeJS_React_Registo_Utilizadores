@@ -1,6 +1,6 @@
 # 📝 Cadastro de Utilizadores (NodeJS | React | Prisma | MongoDB)
 
-Projeto de **aplicação web fullstack** que permite **registar, listar e deletar utilizadores** utilizando **NodeJS, MongoDB, Prisma e React**.  
+Projeto de **aplicação web fullstack** que permite **registar, listar e eliminar utilizadores** utilizando **NodeJS, MongoDB, Prisma e React**.  
 
 O backend fornece uma **API REST** e o frontend consome esta API de forma interativa.
 
@@ -8,26 +8,28 @@ O backend fornece uma **API REST** e o frontend consome esta API de forma intera
 
 # 📂 Estrutura do Projeto
 
-
+```text
 APP_TUTORIAL_YT
 │
 ├── BackEnd
-│ └── server.js
+│   ├── server.js
+│   └── prisma
+│       └── schema.prisma
 │
 ├── FrontEnd
-│ ├── src
-│ │ ├── pages
-│ │ │ └── Home/index.js
-│ │ └── services
-│ │ └── api.js
-│ └── package.json
+│   ├── src
+│   │   ├── pages
+│   │   │   └── Home/index.js
+│   │   └── services
+│   │       └── api.js
+│   └── package.json
 │
 ├── Images
-│ ├── Postman_GET.png
-│ └── React_APP.png
+│   ├── Postman_GET.png
+│   └── React_APP.png
 │
 └── README.md
-
+```
 
 ---
 
@@ -47,6 +49,8 @@ APP_TUTORIAL_YT
 | POST   | /users         | Cria um novo utilizador                |
 | PUT    | /users/:id     | Atualiza um utilizador existente       |
 | DELETE | /users/:id     | Remove um utilizador pelo ID           |
+
+---
 
 ### Exemplo de query params
 
@@ -75,11 +79,17 @@ DELETE /users/:id
 {
   "message": "Delete efetuado com sucesso"
 }
+```
+
+---
+
 🖼 Visualizações
 
 Postman GET request: ![Postman GET](Images/Postman_GET.png)
 
 Aplicação React final: ![Aplicação React](Images/React_APP.png)
+
+---
 
 ⚙️ Configuração do Projeto
 Clonar repositório
@@ -103,7 +113,7 @@ Rodar servidor:
 
 node server.js
 
-Servidor disponível em http://localhost:3000
+---
 
 🌐 Frontend
 
@@ -119,7 +129,7 @@ Rodar aplicação React:
 
 npm start
 
-Aplicação disponível em http://localhost:3000 (ou porta definida pelo React).
+---
 
 📋 Testes com Postman
 
@@ -131,7 +141,7 @@ PUT /users/:id → atualiza os dados de um utilizador existente.
 
 DELETE /users/:id → remove um utilizador pelo ID.
 
-As imagens de execução dos endpoints encontram-se na pasta Images.
+---
 
 👨‍💻 Autor
 
