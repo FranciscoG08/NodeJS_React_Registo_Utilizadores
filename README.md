@@ -85,9 +85,13 @@ DELETE /users/:id
 
 🖼 Visualizações
 
-Postman GET request: ![Postman GET](Images/Postman_GET.png)
+Postman GET request:
+![Postman GET](Images/Postman_GET.png)
 
-Aplicação React final: ![Aplicação React](Images/React_APP.png)
+---
+
+Aplicação React final: 
+![Aplicação React](Images/React_APP.png)
 
 ---
 
