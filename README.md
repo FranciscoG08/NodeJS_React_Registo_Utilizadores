@@ -95,43 +95,58 @@ Aplicação React final:
 
 ---
 
-⚙️ Configuração do Projeto
-Clonar repositório
+# Como Executar o Projeto
+
+### 1️⃣ Clonar o repositório
+```
 git clone https://github.com/FranciscoG08/NodeJS_React_Registo_Utilizadores.git
+```
+---
+
+### 1️⃣ Aceder pastas
+```
 cd APP_TUTORIAL_YT
+```
+
 💻 Backend
-
 Entrar na pasta do backend:
-
+```
 cd BackEnd
+```
 
+### Instalar dependencias
 Instalar dependências:
-
+```
 npm install
+```
 
 Configurar variável de ambiente DATABASE_URL no .env para conectar ao MongoDB:
 
 DATABASE_URL="sua_string_de_conexao_mongodb"
 
-Rodar servidor:
-
+### Para Rodar o servidor
+```
 node server.js
+```
 
 ---
 
 🌐 Frontend
-
+### 1️⃣ Aceder pastas
 Entrar na pasta do frontend:
-
+```
 cd FrontEnd
+```
 
-Instalar dependências:
-
+### Instalar dependencias
+```
 npm install
+```
 
-Rodar aplicação React:
-
+### Rodar a App React
+```
 npm start
+```
 
 ---
 
