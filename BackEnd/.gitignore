@@ -1,0 +1,7 @@
+node_modules
+# Keep environment variables out of version control
+.env
+
+MongoDB
+user:francisco08guedes_db_user
+Pass:KOQNWoUer8MjMiQn
